@@ -1,5 +1,35 @@
 export const networkCollections = {
-  "0x13881": [
+  "0xa86a": [ //avalanche( only show contain NFT by/sell by Avalanch coin)
+    //Add Your Collections here
+  
+    {// this is clollection of smart contract of Marketplace ( depend on blockchain(the same block chain) only show contain NFT by/sell by Avalanch coin)
+      image:
+        "https://assets.nftrade.com/image/upload/w_250,c_scale,so_0p,f_jpg/v1633260104/yexay6zuynulggpybsku.jpg",
+      name: "My collection",
+      addrs: "0xEC781e24ab7452241a89665Ed4E9b4D999412523",
+      // 0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db
+    },
+    {
+      image:
+        "https://assets.nftrade.com/image/upload/w_250,c_scale,so_0p,f_jpg/v1633260104/yexay6zuynulggpybsku.jpg",
+      name: "AvaPepes",
+      addrs: "0x65787a9abc4563316b20ce6c46d0f46f4e357c36",
+    },
+    {
+      image:
+        "https://assets.nftrade.com/image/upload/w_250,c_scale,so_0p,f_jpg/v1644705371/b7nrsxufxrshsofulmr9.jpg",
+      name: "Business Game",
+      addrs: "0x245ab3784c03076ea10460990e6928a5d8a810b1",
+    },
+    {
+      image:
+        "https://lh3.googleusercontent.com/BWCni9INm--eqCK800BbRkL10zGyflxfPwTHt4XphMSWG3XZvPx1JyGdfU9vSor8K046DJg-Q8Y4ioUlWHiCZqgR_L00w4vcbA-w=s0",
+      name: "Test Mages",
+      addrs: "0x275d553f426355c20b134D944B5b28D31CDb83DA",
+    },
+  ],
+
+  "0x89": [ // Polygon( only show contain NFT by/sell by Polygon coin)
     //Add Your Collections here
     {
       image:
@@ -15,7 +45,13 @@ export const networkCollections = {
     },
   ],
 
-  "0x1": [
+  "0x1": [ // ETH( only show contain NFT by/sell by ETH coin)
+    {
+      image:
+        "https://lh3.googleusercontent.com/21pGKlsgsvEzRxtyda08rHIxyvs-ox4VPT2efK2c05nmlO_YmWe8lfMrC5ZSBpuFOl972dzCT9qZDKLymHXdYJ4bABGUvWO67papqw=s130",
+      name: "Zombie funny",
+      addrs: "0x495f947276749ce646f68ac8c248420045cb7b5e",
+    },
     {
       image:
         "https://lh3.googleusercontent.com/Ju9CkWtV-1Okvf45wo8UctR-M9He2PjILP0oOvxE89AyiPPGtrR3gysu1Zgy0hjd2xKIgjJJtWIc0ybj4Vd7wv8t3pxDGHoJBzDB=s130",

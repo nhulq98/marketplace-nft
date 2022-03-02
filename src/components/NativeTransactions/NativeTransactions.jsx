@@ -48,6 +48,7 @@ function NativeTransactions() {
             chainId === "0x1" ? `https://etherscan.io/tx/${hash}` :
             chainId === "0x38" ? `https://bscscan.com/tx/${hash}` :
             chainId === "0x89" ? `https://polygonscan.com/tx/${hash}` :
+            //chainId === "0xa86a" ? `https://avascan.info/tx/${hash}` :
             `https://explorer.avax.network/search?query=${hash}`
           }
           target="_blank"

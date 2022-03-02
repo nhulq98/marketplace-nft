@@ -1,3 +1,6 @@
+/**
+ * This module to setup menu item
+ */
 import { useEffect, useState } from "react";
 import useChain from "hooks/useChain";
 import { useMoralisDapp } from "providers/MoralisDappProvider/MoralisDappProvider";
@@ -72,11 +75,11 @@ const menuItems = [
     value: "Mumbai",
     icon: <PolygonLogo />,
   },
-  // {
-  //   key: "0xa86a",
-  //   value: "Avalanche",
-  //   icon: <AvaxLogo />,
-  // },
+  {
+    key: "0xa86a",
+    value: "Avalanche",
+    icon: <AvaxLogo />,
+  },
 ];
 
 function Chains() {
