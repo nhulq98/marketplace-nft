@@ -77,7 +77,8 @@ const App = ({ isServerInfo }) => {
               fontSize: "17px",
               fontWeight: "500",
               marginLeft: "50px",
-              width: "100%",
+              height:"80%",
+              width: "80%",
             }}
             defaultSelectedKeys={["nftMarket"]}
           >
@@ -87,9 +88,9 @@ const App = ({ isServerInfo }) => {
             <Menu.Item key="goToMitchellHome">
               <NavLink to="/goToMitchellHome">📑 Return Mitchell home</NavLink>
             </Menu.Item>
-            <Menu.Item key="yourCollection">
+            {/* <Menu.Item key="yourCollection">
               <NavLink to="/yourCollection">🖼 Your Collection</NavLink>
-            </Menu.Item>
+            </Menu.Item> */}
             <Menu.Item key="transactions">
               <NavLink to="/Transactions">📑 Your Transactions</NavLink>
             </Menu.Item>
@@ -114,10 +115,10 @@ const App = ({ isServerInfo }) => {
               return null;
             }}/>
 
-            <Route path="/yourCollection">
+            {/* <Route path="/yourCollection">
             <Text height="90px" width="90px"> <font size="+2">Feature is being updated...</font> </Text>
-              {/* <NFTTokenIds inputValue={inputValue} setInputValue={setInputValue}/> */}
-            </Route>
+              <NFTTokenIds inputValue={inputValue} setInputValue={setInputValue}/>
+            </Route> */}
 
             {/* <Route path="/nftBalance">
               <NFTBalance />
