@@ -67,7 +67,7 @@ const App = ({ isServerInfo }) => {
     <Layout style={{ height: "100vh", overflow: "auto" }}>
       <Router>
         <Header style={styles.header}>
-          <Logo />
+          {/* <Logo /> */}
           <SearchCollections setInputValue={setInputValue}/>
           <Menu
             theme="light"
@@ -84,15 +84,18 @@ const App = ({ isServerInfo }) => {
             <Menu.Item key="nftMarket" onClick={() => setInputValue("explore")} >
               <NavLink to="/NFTMarketPlace">🛒 Explore Market</NavLink>
             </Menu.Item>
-            <Menu.Item key="nft">
-              <NavLink to="/nftBalance">🖼 Your Collection</NavLink>
+            <Menu.Item key="goToMitchellHome">
+              <NavLink to="/goToMitchellHome">📑 Return Mitchell home</NavLink>
+            </Menu.Item>
+            <Menu.Item key="yourCollection">
+              <NavLink to="/yourCollection">🖼 Your Collection</NavLink>
             </Menu.Item>
             <Menu.Item key="transactions">
               <NavLink to="/Transactions">📑 Your Transactions</NavLink>
             </Menu.Item>
-            {/* <Menu.Item key="transactions">
-              <NavLink to="/NFTMarketPlace">📑 Demo menu</NavLink>
-            </Menu.Item> */}
+            <Menu.Item key="swapToken">
+              <NavLink to="/swapToken">📑 Swap Token</NavLink>
+            </Menu.Item>
           </Menu>
           <div style={styles.headerRight}>
             <Chains />
@@ -102,16 +105,34 @@ const App = ({ isServerInfo }) => {
         </Header>
         <div style={styles.content}>
           <Switch>
-            <Route path="/nftBalance">
-              <NFTBalance />
-            </Route>
             <Route path="/NFTMarketPlace">
               <NFTTokenIds inputValue={inputValue} setInputValue={setInputValue}/>
             </Route>
+
+            <Route path='/goToMitchellHome' component={() => { 
+              window.location.href = 'https://mitchell.mx'; 
+              return null;
+            }}/>
+
+            <Route path="/yourCollection">
+            <Text height="90px" width="90px"> <font size="+2">Feature is being updated...</font> </Text>
+              {/* <NFTTokenIds inputValue={inputValue} setInputValue={setInputValue}/> */}
+            </Route>
+
+            {/* <Route path="/nftBalance">
+              <NFTBalance />
+            </Route> */}
+            
             <Route path="/Transactions">
               <NFTMarketTransactions />
             </Route>
+
+            <Route path="/swapToken">
+              <Text height="90px" width="90px"> <font size="+2">Feature is being updated...</font> </Text>
+              {/* <swapToken /> */}
+            </Route>
           </Switch>
+
           <Redirect to="/NFTMarketPlace" />
         </div>
       </Router>

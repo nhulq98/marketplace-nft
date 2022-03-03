@@ -46,12 +46,12 @@ export const networkCollections = {
   ],
 
   "0x1": [ // ETH( only show contain NFT by/sell by ETH coin)
-    {
-      image:
-        "https://lh3.googleusercontent.com/21pGKlsgsvEzRxtyda08rHIxyvs-ox4VPT2efK2c05nmlO_YmWe8lfMrC5ZSBpuFOl972dzCT9qZDKLymHXdYJ4bABGUvWO67papqw=s130",
-      name: "Zombie funny",
-      addrs: "0x495f947276749ce646f68ac8c248420045cb7b5e",
-    },
+    // {
+    //   image:
+    //     "https://lh3.googleusercontent.com/21pGKlsgsvEzRxtyda08rHIxyvs-ox4VPT2efK2c05nmlO_YmWe8lfMrC5ZSBpuFOl972dzCT9qZDKLymHXdYJ4bABGUvWO67papqw=s130",
+    //   name: "Zombie funny",
+    //   addrs: "0x495f947276749ce646f68ac8c248420045cb7b5e",
+    // },
     {
       image:
         "https://lh3.googleusercontent.com/Ju9CkWtV-1Okvf45wo8UctR-M9He2PjILP0oOvxE89AyiPPGtrR3gysu1Zgy0hjd2xKIgjJJtWIc0ybj4Vd7wv8t3pxDGHoJBzDB=s130",
@@ -100,12 +100,12 @@ export const networkCollections = {
       name: "Cool Cats NFT",
       addrs: "0x1A92f7381B9F03921564a437210bB9396471050C",
     },
-    {
-      image:
-        "https://lh3.googleusercontent.com/ucjqNt-30KYvds885Ccll69S_3chbiCZs_L4wZZE9w61SwRd8ePwH25EdxvL04Q1_wzCUwBxnxRGLhutD1HDOuptkEo9jRrnUjiYAwU=w600",
-      name: "Mark Demo",
-      addrs: "0x86c10d10eca1fca9daf87a279abccabe0063f247",
-    },
+    // {
+    //   image:
+    //     "https://lh3.googleusercontent.com/ucjqNt-30KYvds885Ccll69S_3chbiCZs_L4wZZE9w61SwRd8ePwH25EdxvL04Q1_wzCUwBxnxRGLhutD1HDOuptkEo9jRrnUjiYAwU=w600",
+    //   name: "Egg",
+    //   addrs: "0x86c10d10eca1fca9daf87a279abccabe0063f247",
+    // },
   ],
 };
 

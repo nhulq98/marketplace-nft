@@ -22,7 +22,7 @@ export const useNFTTokenIds = (addr) => {
   } = useMoralisWeb3ApiCall(token.getAllTokenIds, {
     chain: chainId,
     address: addr,
-    limit: 10, // limit Amount NFT in collection Detail
+    limit: 8, // limit Amount NFT in collection Detail
   });
 
   useEffect(async () => {
