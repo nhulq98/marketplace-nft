@@ -86,7 +86,10 @@ const App = ({ isServerInfo }) => {
               <NavLink to="/NFTMarketPlace">🛒 Explore Market</NavLink>
             </Menu.Item>
             <Menu.Item key="goToMitchellHome">
-              <NavLink to="/goToMitchellHome">📑 Return Mitchell home</NavLink>
+              <NavLink to="/goToMitchellHome"> Mitchell home</NavLink>
+            </Menu.Item>
+            <Menu.Item key="goToUtilityWallet">
+              <NavLink to="/goToUtilityWallet"> Utility Wallet</NavLink>
             </Menu.Item>
             {/* <Menu.Item key="yourCollection">
               <NavLink to="/yourCollection">🖼 Your Collection</NavLink>
@@ -114,6 +117,11 @@ const App = ({ isServerInfo }) => {
               window.location.href = 'https://mitchell.mx'; 
               return null;
             }}/>
+            <Route path='/goToUtilityWallet' component={() => { 
+              window.location.href = 'https://project01.mitchell.mx'; 
+              return null;
+            }}/>
+            
 
             {/* <Route path="/yourCollection">
             <Text height="90px" width="90px"> <font size="+2">Feature is being updated...</font> </Text>
